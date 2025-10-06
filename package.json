@@ -1,0 +1,22 @@
+{
+  "name": "appeals-backoffice-playwright-poc",
+  "version": "1.0.0",
+  "description": "poc of using PlayWright framework to write e2e tests",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcpodgorney81/appeals-backoffice-playwright-poc.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcpodgorney81/appeals-backoffice-playwright-poc/issues"
+  },
+  "homepage": "https://github.com/marcpodgorney81/appeals-backoffice-playwright-poc#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1",
+    "@types/node": "^24.7.0"
+  }
+}
