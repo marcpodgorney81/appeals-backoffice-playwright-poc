@@ -11,9 +11,9 @@ export class Shared {
         //MS Authenitcation
         await this.page
             .locator("#i0116")
-            .fill("caseteamofficer.test@planninginspectorate.gov.uk");
+            .fill(process.env.email || '');
         await this.page.getByRole("button", { name: "Next" }).click();
-        await this.page.locator("#i0118").fill("Bo8tPa3ty!");
+        await this.page.locator("#i0118").fill(process.env.password || '');
         await this.page.getByRole("button", { name: /Sign in/ }).click();
     }
 }
